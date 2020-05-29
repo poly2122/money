@@ -1,5 +1,64 @@
 <template>
-    <div>Money.vue
+    <div class="nav-wrapper"> 
+        <div class="content">
+          <p> Money.vue</p> 
+           <p> Money.vue</p> 
+            <p> Money.vue</p> 
+             <p> Money.vue</p> 
+              <p> Money.vue</p> 
+               <p> Money.vue</p> 
+
+                <p> Money.vue</p> 
+                  <p> Money.vue</p> 
+           <p> Money.vue</p> 
+            <p> Money.vue</p> 
+             <p> Money.vue</p> 
+              <p> Money.vue</p> 
+               <p> Money.vue</p> 
+
+                <p> Money.vue</p> 
+                  <p> Money.vue</p> 
+           <p> Money.vue</p> 
+            <p> Money.vue</p> 
+             <p> Money.vue</p> 
+              <p> Money.vue</p> 
+               <p> Money.vue</p> 
+
+                <p> Money.vue</p> 
+                  <p> Money.vue</p> 
+           <p> Money.vue</p> 
+            <p> Money.vue</p> 
+             <p> Money.vue</p> 
+              <p> Money.vue</p> 
+               <p> Money.vue</p> 
+
+                <p> Money.vue</p> 
+                  <p> Money.vue</p> 
+           <p> Money.vue</p> 
+            <p> Money.vue</p> 
+             <p> Money.vue</p> 
+              <p> Money.vue</p> 
+               <p> Money.vue</p> 
+
+                <p> Money.vue</p> 
+                  <p> Money.vue</p> 
+           <p> Money.vue</p> 
+            <p> Money.vue</p> 
+             <p> Money.vue</p> 
+              <p> Money.vue</p> 
+               <p> Money.vue</p> 
+
+                <p> Money.vue</p> 
+                  <p> Money.vue</p> 
+           <p> Money.vue</p> 
+            <p> Money.vue</p> 
+             <p> Money.vue</p> 
+              <p> Money.vue</p> 
+               <p> Money.vue</p> 
+
+                <p> Money.vue</p> 
+        </div>
+        
      <Nav/>
     </div>
 </template>
@@ -12,6 +71,16 @@
     };
 </script>
 
-<style lang="less" scoped>
-
+<style lang="scss" scoped>
+.nav-wrapper{
+    border: 1px solid green;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+}
+.content{
+    border: 1px solid blue;
+    overflow: auto;
+    flex-grow: 1;
+}
 </style>
